@@ -1,0 +1,78 @@
+/* CSS Variables */
+
+/* General CSS */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+/* CSS code */
+body {
+  height: 100vh;
+  background-color: rgb(98, 98, 255);
+  background-image: linear-gradient(rgb(98, 98, 255), rgb(163, 163, 253));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading,
+.entries {
+  text-align: center;
+}
+
+.heading {
+  color: #ffffff;
+  text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5,
+    -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5,
+    -2px 0px 0 #4074b5, 0px -2px 0 #4074b5, 2px 2px 2px #4747fa;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  margin: 3% auto;
+}
+
+.entries {
+  font-size: 1.5rem;
+  color: #000000;
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+
+/* Buttons */
+#increment-btn,
+#save-btn {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.543);
+  color: #fff;
+  margin-bottom: 3%;
+}
+
+#increment-btn {
+  background-color: rgb(71, 71, 255);
+}
+
+#save-btn {
+  background-color: rgb(49, 201, 49);
+}
+
+#increment-btn:hover {
+  cursor: pointer;
+  background-color: rgb(43, 43, 255);
+}
+
+#save-btn:hover {
+  cursor: pointer;
+  background-color: rgb(54, 152, 54);
+}
